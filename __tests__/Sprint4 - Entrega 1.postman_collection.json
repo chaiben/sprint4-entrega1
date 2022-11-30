@@ -567,8 +567,8 @@
 							"});",
 							"pm.test(\"Missing pokemon \\\"id\\\"\", function () {",
 							"    var jsonData = pm.response.json();",
-							"    pm.expect(jsonData.payload.message[0]).to.eql(\"Missing pokemon \\\"id\\\"\");",
-							"    pm.expect(jsonData.payload.error[0]).to.eql(\"Invalid Request\");",
+							"    pm.expect(jsonData.message[0]).to.eql(\"Missing pokemon \\\"id\\\"\");",
+							"    pm.expect(jsonData.error[0]).to.eql(\"Invalid Request\");",
 							"});"
 						],
 						"type": "text/javascript"
