@@ -54,6 +54,8 @@ If you want to test manually, you can use username = 'chaiben' and password = '1
 ├── package.json: Project dependencies
 └── uploads: Folder that all uploaded files are saved
 
+That's all!
+
 ```
 
 ## Ref
